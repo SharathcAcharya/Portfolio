@@ -6,14 +6,140 @@
         <meta name="viewport"content="width=device-width,initial-scale=1.0">
         <title>Sharath's Portfolio</title>
         <link rel="stylesheet" href="style.css" >
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     </head>
-<body>
-    <header class="header"></header>
-    <h1 class="logo">Portfolio</h1>
+    <body>
+        <header>
+            <div class="container">
+                <img src="https://www.svgrepo.com/show/285254/portfolio.svg" alt="Portfolio Logo" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
     
+        <section id="home" class="home">
+            <div class="overlay">
+                <div class="container">
+                    <img src="your-image.jpg" alt="Your Image" class="profile-img">
+                    <h1>Your Name</h1>
+                    <p>Web Developer | Designer</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
     
-</body>
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am a passionate web developer with a knack for creating elegant solutions in the least amount of time. Experienced in both frontend and backend development, I strive to write clean, maintainable, and efficient code.</p>
+            </div>
+        </section>
+    
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-list">
+                    <div class="skill">
+                        <i class="fab fa-html5"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-css3-alt"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-js"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-react"></i>
+                        <p>React</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-node-js"></i>
+                        <p>Node.js</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-python"></i>
+                        <p>Python</p>
+                    </div>
+                    <!-- Add more skills as needed -->
+                </div>
+            </div>
+        </section>
+    
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <div class="project">
+                        <img src="project1.jpg" alt="Project 1">
+                        <h3>Project Title 1</h3>
+                        <p>A brief description of the project goes here.</p>
+                    </div>
+                    <div class="project">
+                        <img src="project2.jpg" alt="Project 2">
+                        <h3>Project Title 2</h3>
+                        <p>A brief description of the project goes here.</p>
+                    </div>
+                    <!-- Add more projects as needed -->
+                </div>
+            </div>
+        </section>
+    
+        <section id="certifications" class="certifications">
+            <div class="container">
+                <h2>Certifications</h2>
+                <ul>
+                    <li>Certification Name 1 - Issuing Organization</li>
+                    <li>Certification Name 2 - Issuing Organization</li>
+                    <li>Certification Name 3 - Issuing Organization</li>
+                    <!-- Add more certifications as needed -->
+                </ul>
+            </div>
+        </section>
+    
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    
+        <section id="resume" class="resume">
+            <div class="container">
+                <h2>Resume</h2>
+                <p><a href="resume.pdf" target="_blank">Download my resume</a></p>
+            </div>
+        </section>
+    
+        
+    </body>
 </html>
