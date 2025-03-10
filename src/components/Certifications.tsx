@@ -11,28 +11,28 @@ const certifications = [
     issuer: "Prodigy InfoTech",
     date: "Dec 2024",
     link: "https://www.linkedin.com/posts/sharath-acharya-21a19524b_certificate-activity-7278072314116689921-hyHg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD3I9_YBG2BYjOx6-NF5B9k_2filSNN_aHg",
-    image: "public/assets/pro.png",
+    image: "/assets/pro.png",
   },
   {
     title: "Python for Data Analysis",
     issuer: "GreatLearningAcademy",
     date: "Oct 2024",
     link: "https://olympus.mygreatlearning.com/courses/47906/certificate?pb_id=581",
-    image: "public/assets/py.png",
+    image: "/assets/py.png",
   },
   {
     title: "Advanced Software Engineering	Job Simulation",
     issuer: "Forage",
     date: "Mar 2025",
     link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/prBZoAihniNijyD6d/oX6f9BbCL9kJDJzfg_prBZoAihniNijyD6d_FPNLvzZgxCbyDdNgv_1741097179088_completion_certificate.pdf",
-    image:"public/assets/walmart.png",
+    image:"/assets/walmart.png",
   },
   {
     title: "Android Training Course Bundle",
     issuer: "Infosys SpringBoard",
     date: "Jul 2024",
     link: "https://infyspringboard.onwingspan.com/web/en/app/toc/lex_auth_01384789919575244856028_shared/overview",
-    image: "public/assets/android.png",
+    image: "/assets/android.png",
   },
 ];
 
