@@ -14,7 +14,7 @@ const projects = [
     title: 'Kalikamba Furnitures',
     description: 'E-commerec application where we can buy Furniture Products.',
     image: '/assets/kf.png',
-    link: 'https://neocoding.vercel.app',
+    link: 'https://github.com/SharathcAcharya/',
     github: 'https://github.com/SharathcAcharya/',
     tags: ['Angular', 'Node.js', 'MongoDB'],
   },
