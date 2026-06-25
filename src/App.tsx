@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <LoadingScreen isLoading={isLoading} />
-      <div className={`min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-opacity duration-500 ${isLoading ? 'opacity-0' : 'opacity-100'}`}>
+      <div className={`min-h-screen overflow-x-hidden bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-opacity duration-500 ${isLoading ? 'opacity-0' : 'opacity-100'}`}>
         <CustomCursor />
         <Navbar />
         <Hero />
